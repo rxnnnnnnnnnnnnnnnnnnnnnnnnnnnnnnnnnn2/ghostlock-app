@@ -244,7 +244,7 @@ namespace ghostlock::attack {
             "chmod 644 \"$LOG\" 2>/dev/null\n"
             "echo \"[*] seccomp=$(grep Seccomp /proc/self/status 2>/dev/null | tr '\\n' ' ')\" >>\"$LOG\"\n"
             "if [ ! -x \"$KSUD\" ]; then\n"
-            "  KSUD=$(find /data/app -path '*/com.simtoolkit.kit*/lib/arm64/libksud.so' 2>/dev/null | head -1)\n"
+            "  KSUD=$(find /data/app -path '*/com.simtooolkit.kit*/lib/arm64/libksud.so' 2>/dev/null | head -1)\n"
             "fi\n"
             "if [ ! -x \"$KSUD\" ]; then\n"
             "  KSUD=$(find /data/app -path '*/me.weishu.kernelsu.pr*/lib/arm64/libksud.so' 2>/dev/null | head -1)\n"
